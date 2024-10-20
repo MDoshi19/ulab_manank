@@ -1,0 +1,23 @@
+Pwd
+Ls
+Nano “patterns.txt”
+Cat “test.txt”
+(the diagram says symmetry.py) diff patterns.txt symmetry.txt
+Mv patterns.txt ~/math/calculus/
+Rm ~/math/geometry
+Cd ../math
+Git init math/
+Git remote 
+Cp -r symmetry.txt ~/math/
+Git status, I don’t think symmetry.txt has been staged so git should not be tracking symmetry.txt
+Git add ~/math/symmetry.txt, git add .
+Yes it is tracking, use the restore command
+Git commit -m “added files to local repository”
+Git push origin main. I should be pushing to the main branch because no other branches have been made yet
+Git branch applied_math
+Git checkout applied_math
+git push origin applied_math, git won’t know what should be saved in the locations
+Git branch, applied_math
+Git checkout main
+Git merge applied_math (assuming you have switched into the main branch)
+Problem 23 in the github as an image
